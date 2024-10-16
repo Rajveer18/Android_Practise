@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backgro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hi"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Your Pizza Topping"
+        android:textColor="#E7E4E4"
+        android:textSize="34sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="2dp">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra Cheese"
+            android:textColor="#EBE8E8"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olives"
+            android:textColor="#F1EDED"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jalapenos"
+            android:textColor="#F1EFEF"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capsicum"
+            android:textColor="#F1EEEE"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Corn"
+            android:textColor="#EFEBEB"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onion"
+            android:textColor="#EDE9E9"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Large" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medium" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regular" />
+        </RadioGroup>
+    </RadioGroup>
+</LinearLayout>
